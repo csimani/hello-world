@@ -4,5 +4,7 @@ node {
 
 	stage 'Build'		
    		echo 'Hello World'
+	
+	stage 'CheckSystem'
 		sh 'printenv'
 }
